@@ -31,3 +31,6 @@ your hosting link e.g. http://a4-charlieroberts.me
 Include a very brief summary of your project here and what you changed / added to assignment #3. Briefly (3–4 sentences) answer the following question: did the new technology improve or hinder the development experience?
 
 Unlike previous assignments, this assignment will be solely graded on whether or not you successfully complete it. Partial credit will be generously given.
+
+
+Using react definately had both some upsides and downsides. Coimproved writing interactive parts of the website and allowed for a more structured/modular approach but it made it harder to write over all.

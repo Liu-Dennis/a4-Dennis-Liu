@@ -1,0 +1,37 @@
+{
+  "name": "a4-Dennis-Liu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server/main.js -w src/server",
+    "start": "NODE_ENV=production node src/server/main.js",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "dotenv": "^18.0.3",
+    "express": "^5.1.0",
+    "express-session": "^1.19.0",
+    "mongodb": "^7.6.0",
+    "morgan": "^1.12.1",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "serve-favicon": "^2.5.1",
+    "vite-express": "*"
+  },
+  "devDependencies": {
+    "@eslint/css": "^2.0.0",
+    "@eslint/js": "^9.39.5",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.12.0",
+    "nodemon": "^3.1.10",
+    "vite": "^6.3.3"
+  }
+}
