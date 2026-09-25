@@ -125,7 +125,7 @@ passport.deserializeUser(async function(obj, done) {
 passport.use(new GitHubStrategy({
     clientID: process.env.GITHUB_CLIENTID,
     clientSecret: process.env.GITHUB_CLIENTSECRET,
-    callbackURL: "http://localhost:3000/auth/github/callback"
+    callbackURL: "https://a4-dennis-liu.onrender.com/auth/github/callback"
 },
 async function(accessToken, refreshToken, profile, done) {
     // console.log(JSON.stringify(profile))
